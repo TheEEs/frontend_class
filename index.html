@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="h-screen bg-gray-200">
+      <div class="h-full sm:max-w-md mx-auto flex items-center bg-white">
+        <div id="main" class="w-full">
+          <p id="numbers" class="text-center font-mono text-lg font-bold mb-4">
+            []
+          </p>
+          <input
+            class="w-11/12 px-4 py-2 font-mono mb-4 mx-auto block bg-slate-200"
+            placeholder="Thêm số và nhấn enter"
+            type="text"
+            id="number_input"
+          />
+          <div class="flex justify-center">
+            <button
+              id="add_number_btn"
+              class="mx-auto block w-2/5 bg-violet-400 font-mono text-lg py-4"
+            >
+              Thêm số
+            </button>
+            <button
+              id="reset_btn"
+              class="mx-auto block w-2/5 bg-yellow-300 font-mono text-lg py-4"
+            >
+              Làm lại
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
